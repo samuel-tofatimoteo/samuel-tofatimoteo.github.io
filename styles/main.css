@@ -1,5 +1,7 @@
  body {
-  font-family: Roboto;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: black;
+  color: aliceblue;
  }
 
  div {
@@ -7,26 +9,45 @@
  }
 
 header {
-  padding: 30px;
-  text-align: center;
-  background: darkgray;
-  color: black;
+  margin-left: 15%;
+  padding: 20px;
+  background-color: rgb(99, 112, 144);
   font-size: 20px;
 }
 
 aside {
-  list-style-type:none;
-  margin: 0;
-  padding: 0;
-  width: 20%;
-  background-color: #f1f1f1;
   height: 100%;
-  position: fixed; 
-  overflow: auto;
+  width: 15%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  padding-top: 40px;
+  background-color: gray;
 }
 
+#sidebars a {
+  padding: 5px 10px 10px 5px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: large;
+  text-align: center;
+  margin: 10px;
+  color: #F1F0E7;
+  background: #404445;
+  display: block;
+}
+
+h2 {
+  text-align: center;
+
+}
+
+p {
+  padding: 0%;
+}
 main {
-  margin-left: 25%;
+  margin-left: 20%;
+  margin-right: 20%;
   padding: 1 16;
   height: 1000;
 }
