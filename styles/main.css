@@ -10,8 +10,11 @@
  }
 
 header {
-  margin-left: 15%;
+  margin-left: 20%;
+  margin-right: 5%;
+  margin-top: 5%;
   padding: 20px;
+  border-radius: 10px;
   background-color: rgb(99, 112, 144);
   font-size: 20px;
 }
@@ -38,17 +41,14 @@ aside {
   display: block;
 }
 
-h2 {
-  text-align: center;
-}
-
 p {
   padding: 0%;
 }
 
 main {
   margin-left: 20%;
-  margin-right: 20%;
+  margin-right: 5%;
+  margin-top: 5%;
   margin-bottom: 5%;
   padding: 1 16;
   height: 1000;
